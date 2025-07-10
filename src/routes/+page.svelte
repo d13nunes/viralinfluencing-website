@@ -65,7 +65,11 @@
       <p class="mt-4 text-justify-center  leading-tight">Subscribe our newsletter</p>
     </div>
       {#each features as feature}
-        <Card icon={feature.icon} title={feature.title} description={feature.description} />
+        <Card title={feature.title} description={feature.description} > 
+          {#snippet icon()}
+            <feature.icon class="w-8 h-8 text-white" />
+          {/snippet}
+        </Card>
       {/each}
     </section>
     <div class="h-16"></div>
