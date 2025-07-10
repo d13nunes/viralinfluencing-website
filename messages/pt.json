@@ -1,4 +1,23 @@
 {
-	"$schema": "https://inlang.com/schema/inlang-message-format",
-	"hello_world": "Hello, {name} from pt!"
+    "$schema": "https://inlang.com/schema/inlang-message-format",
+    "hello_world": "Olá, {name} de pt!",
+    "features_send_title": "Publicação Sem Esforço",
+    "features_send_description": "Poupe tempo e alcance um público mais vasto ao publicar o seu conteúdo em todas as suas redes sociais com um único clique.",
+    "features_lightbulb_title": "Inspiração Interminável",
+    "features_lightbulb_description": "Nunca fique sem inspiração com sugestões da nossa IA para tópicos de vídeos virais e temas de publicações adaptados ao seu nicho.",
+    "features_pencil_title": "Descrições com Um Clique",
+    "features_pencil_description": "Crie descrições cativantes e específicas para cada plataforma que chamam a atenção e impulsionam o engagement, tudo com um único clique.",
+    "features_hash_title": "Hashtags Perfeitas",
+    "features_hash_description": "Maximize o seu alcance e seja descoberto por novos públicos com hashtags recomendadas pela nossa IA para o seu conteúdo.",
+    "features_calendar_title": "Agendamento Automático",
+    "features_calendar_description": "Agende publicações para o momento ideal para interagir com o seu público, para que se possa focar em criar conteúdo de qualidade.",
+    "features_folder_title": "Hub de Conteúdo Centralizado",
+    "features_folder_description": "Mantenha os seus ficheiros multimédia organizados e acessíveis num único local, facilitando a reutilização de conteúdo e a manutenção de uma marca consistente.",
+    "features_message_square_title": "Uma Caixa de Mensagens Única",
+    "features_message_square_description": "Faça a gestão de todos os seus comentários e mensagens numa única caixa de entrada, com uma IA que responde automaticamente para que possa interagir com a sua comunidade de forma mais eficiente.",
+    "main_description1": "A tua futura ferramenta de gestão de redes sociais",
+    "main_description2": "powered by Artificial Intelligence",
+    "newsletter_title": "Junte-se ao nosso círculo restrito! Seja o primeiro a experimentar novas funcionalidades e a moldar o futuro da Viral Influencing app",
+    "newsletter_button": "Obter Acesso Antecipado",
+    "newsletter_cta": "Subscreva a nossa newsletter"
 }

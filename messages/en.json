@@ -1,4 +1,23 @@
 {
 	"$schema": "https://inlang.com/schema/inlang-message-format",
-	"hello_world": "Hello, {name} from en!"
+	"hello_world": "Hello, {name} from en!",
+	"features_send_title": "Effortless Publishing",
+	"features_send_description": "Save time and reach a wider audience by posting your content to all your social networks with just a single click.",
+	"features_lightbulb_title": "Endless Inspiration",
+	"features_lightbulb_description": "Never run out of inspiration with AI-powered suggestions for viral video topics and post themes tailored to your niche.",
+	"features_pencil_title": "One Click Captions",
+	"features_pencil_description": "Craft engaging, platform-specific captions that grab attention and drive engagement, all with a single click.",
+	"features_hash_title": "Perfect Hashtags",
+	"features_hash_description": "Maximize your reach and get discovered by new audiences with AI-recommended hashtags for your content.",
+	"features_calendar_title": "Content Scheduling",
+	"features_calendar_description": "Automate your posting schedule to engage your audience at the perfect time, so you can focus on creating great content.",
+	"features_folder_title": "Centralized Content Hub",
+	"features_folder_description": "Keep your media organized and accessible in one place, making it easy to repurpose content and maintain a consistent brand.",
+	"features_message_square_title": "Unified Engagement",
+	"features_message_square_description": "Manage all your comments and messages in one inbox, so you can interact with your community more efficiently.",
+	"main_description1": "Your new social media management tool",
+	"main_description2": "powered by Artificial Intelligence",
+	"newsletter_title": "Join our inner circle and get a front-row seat! Be the first to experience new features and shape the future of our tool.",
+	"newsletter_button": "Subscribe",
+	"newsletter_cta": "Subscribe our newsletter"
 }
