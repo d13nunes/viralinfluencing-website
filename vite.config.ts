@@ -12,12 +12,17 @@ export default defineConfig({
 			outdir: './src/lib/paraglide'
 		})
 	],
-	// css: {
-	// 	postcss: {
-	// 		plugins: [
-	// 			require('tailwindcss'),
-	// 			require('autoprefixer'),
-	// 		],
-	// 	},
-	// },
+	build: {
+		minify: true,
+		sourcemap: true,
+		rollupOptions: {
+			output: {
+				manualChunks: id => {
+					if (id.includes('node_modules')) {
+						return 'vendor';
+					}
+				}
+			}
+		}
+	}
 });
