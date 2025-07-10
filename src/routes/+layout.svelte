@@ -1,11 +1,6 @@
 
-<script lang="ts">
-	// This can be false if you're using a fallback (i.e. SPA mode)
-	export const prerender = true;
-	
+<script lang="ts">	
 	import '../app.css';
-	import MailingListForm from '$lib/MailingListForm.svelte';
-
 	let { children } = $props();
 </script>
 
