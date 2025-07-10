@@ -1,209 +1,73 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coming Soon: AI-Powered Social Media Management Tool</title>
-    <style>
-        /* General Body Styles */
-        body {
-            font-family: sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background: #f4f4f4;
-            color: #333;
-        }
+<script lang="ts">
+  import Card from '$lib/Card.svelte';
+  import { Send, Calendar, Folder, MessageSquare, Lightbulb, Pencil, Hash, Mail } from "@lucide/svelte";
 
-        /* Header and Logo */
-        header {
-            background: #fff;
-            padding: 1rem 0;
-            text-align: center;
-            border-bottom: 1px solid #ddd;
-        }
+  const features = [
+    {
+      icon: Send,
+      title: 'Effortless Publishing',
+      description: 'Save time and reach a wider audience by posting your content to all your social networks with just a single click.'
+    },{
+      icon: Lightbulb,
+      title: 'Endless Inspiration',
+      description: 'Never run out of inspiration with AI-powered suggestions for viral video topics and post themes tailored to your niche.'
+    },
+    {
+      icon: Pencil,
+      title: 'One Click Captions',
+      description: 'Craft engaging, platform-specific captions that grab attention and drive engagement, all with a single click.'
+    },
+    {
+      icon: Hash,
+      title: 'Perfect Hashtags',
+      description: 'Maximize your reach and get discovered by new audiences with AI-recommended hashtags for your content.'
+    },
+    {
+      icon: Calendar,
+      title: 'Content Scheduling',
+      description: 'Automate your posting schedule to engage your audience at the perfect time, so you can focus on creating great content.'
+    },
+    //   {
+    //   icon: Folder,
+    //   title: 'Centralized Content Hub',
+    //   description: 'Keep your media organized and accessible in one place, making it easy to repurpose content and maintain a consistent brand.'
+    // },
+    {
+      icon: MessageSquare,
+      title: 'Unified Engagement',
+      description: 'Manage all your comments and messages in one inbox, so you can interact with your community more efficiently.'
+    },
+    
+  ];
+</script>
 
-        .logo {
-            font-weight: bold;
-            font-size: 1.5rem;
-        }
+<div class="w-full h-full">
 
-        /* Main Content */
-        main {
-            padding: 20px;
-            max-width: 800px;
-            margin: 0 auto;
-        }
-
-        section {
-            background: #fff;
-            margin-bottom: 20px;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-        }
-
-        /* Headings */
-        h1, h2, h3, h4 {
-            color: #333;
-        }
-
-        h1 {
-            font-size: 2.5rem;
-            line-height: 1.2;
-        }
-
-        h2 {
-            font-size: 1.5rem;
-            color: #555;
-        }
-
-        h3 {
-            border-bottom: 2px solid #f4f4f4;
-            padding-bottom: 10px;
-            margin-bottom: 20px;
-        }
-
-        /* Features Section */
-        .feature h4 {
-            margin-top: 0;
-        }
-
-        /* Signup Form */
-        #signup form {
-            display: flex;
-            flex-direction: column;
-        }
-
-        #signup input[type="email"] {
-            padding: 10px;
-            margin-bottom: 10px;
-            border: 1px solid #ddd;
-            border-radius: 4px;
-        }
-
-        #signup button {
-            padding: 10px 15px;
-            border: none;
-            background: #333;
-            color: #fff;
-            border-radius: 4px;
-            cursor: pointer;
-            font-size: 1rem;
-        }
-
-        #signup button:hover {
-            background: #555;
-        }
-
-        /* Footer and Social Media */
-        footer {
-            text-align: center;
-            padding: 20px;
-            background: #333;
-            color: #fff;
-        }
-
-        #social-media ul {
-            list-style: none;
-            padding: 0;
-        }
-
-        #social-media ul li {
-            display: inline;
-            margin: 0 10px;
-        }
-
-        #social-media a {
-            color: #fff;
-            text-decoration: none;
-        }
-
-        /* Responsive Design */
-        @media (max-width: 600px) {
-            h1 {
-                font-size: 2rem;
-            }
-
-            h2 {
-                font-size: 1.2rem;
-            }
-        }
-    </style>
-</head>
-<body>
-    <header>
-        <div class="logo">
-            <!-- Company Logo Placeholder -->
-            Your Logo Here
-        </div>
-    </header>
-
-    <main>
-        <section id="hero">
-            <h1>Coming Soon: The AI-Powered Social Media Management Tool for Influencers</h1>
-            <h2>Tired of the social media juggle? Supercharge your influence with the power of AI.</h2>
-        </section>
-
-        <section id="intro">
-            <p>Being an influencer is more than a full-time job. You're a content creator, a community manager, a strategist, and a marketer all rolled into one. We get it. That's why we're building a tool that takes the grunt work out of social media management, so you can focus on what you do best: creating amazing content and connecting with your audience.</p>
-        </section>
-
-        <section id="features-ai">
-            <h3>Unleash Your Creative Potential with AI</h3>
-            <div class="feature">
-                <h4>Generate Endless Ideas</h4>
-                <p>Never run out of content ideas again. Our AI-powered brainstorming tool helps you discover trending topics and unique angles that resonate with your audience.</p>
-            </div>
-            <div class="feature">
-                <h4>Write Captions in a Click</h4>
-                <p>Struggling to find the right words? Generate compelling, on-brand captions in seconds. Just provide a few keywords, and our AI will do the rest.</p>
-            </div>
-            <div class="feature">
-                <h4>Discover Perfect Hashtags</h4>
-                <p>Boost your visibility with a single click. Our AI analyzes your content and suggests the most effective and relevant hashtags to maximize your reach.</p>
-            </div>
-        </section>
-
-        <section id="features-management">
-            <h3>Powerful Management Tools</h3>
-            <div class="feature">
-                <h4>Effortless Multi-Platform Publishing</h4>
-                <p>Publish your content across all your social media profiles from a single, easy-to-use dashboard.</p>
-            </div>
-            <div class="feature">
-                <h4>Intuitive Content Scheduling</h4>
-                <p>Plan your content calendar weeks in advance. Our intuitive scheduler helps you maintain a consistent posting schedule with minimal effort.</p>
-            </div>
-            <div class="feature">
-                <h4>Centralized Content Hub</h4>
-                <p>Keep all your creative assets in one place. Our centralized hub makes it easy to store, organize, and access your content from anywhere.</p>
-            </div>
-            <div class="feature">
-                <h4>Unified Engagement</h4>
-                <p>Manage all your comments, messages, and mentions from a single inbox. No more switching between apps to engage with your audience.</p>
-            </div>
-        </section>
-
-        <section id="signup">
-            <h3>Be the First to Know!</h3>
-            <p>Sign up for our exclusive waiting list and get a <strong>20% discount</strong> on your first month. Be the first to experience the future of social media management.</p>
-            <form>
-                <input type="email" placeholder="Your Email Address" required>
-                <button type="submit">Notify Me & Get Early Access!</button>
-            </form>
-        </section>
-    </main>
-
-    <footer>
-        <div id="social-media">
-            <h4>Follow our journey:</h4>
-            <ul>
-                <li><a href="#">Instagram</a></li>
-                <li><a href="#">Twitter</a></li>
-                <li><a href="#">Facebook</a></li>
-            </ul>
-        </div>
-    </footer>
-</body>
-</html>
+  <header class="text-center pt-8 px-8">
+    <h1 class="h1 text-4xl md:h-28 md:text-8xl bg-clip-text text-transparent  bg-gradient-to-r from-primary-500 to-tertiary-500 ">Viral Influencing</h1>
+  </header>
+  <div class="text-center px-8 pb-2 md:pb-8 pt-0 md:pt-8">
+    <p class="text-surface-500-400-token text-xl mt-2 md:mt-0 md:text-2xl leading-none">Your new social media management tool<br>powered by Artificial Intelligence</p>
+  </div>
+  
+  <div class="container mx-auto max-w-4xl p-8 h-full  ">
+    <section class="grid  md:grid-cols-2 gap-8 ">
+    
+    <div class="card preset-filled-surface-100-900 light:border-1 border-surface-200 px-8 pt-6 pb-6 md:pb-8 flex flex-col items-center text-center rounded-lg shadow-md md:col-span-2"  >
+      <div class="w-16 h-16 mb-4 rounded-full flex items-center justify-center preset-filled-secondary-500">
+        <Mail class="w-8 h-8 text-white" />
+      </div>
+      <p class="mb-4 text-balance  leading-tight">Join our inner circle and get a front-row seat! Be the first to experience new features and shape the future of our tool.</p>
+      <form class="flex w-full max-w-lg mx-auto">
+        <input class="input  border-surface-200-800 preset-surface-50-950 rounded-r-none" type="email" placeholder="Enter your email" />
+        <button type="submit" class="btn preset-filled-secondary-500 rounded-l-none hover:brightness-110 md:col-span-2 lg:col-span-2">Subscribe</button>
+      </form>
+      <p class="mt-4 text-justify-center  leading-tight">Subscribe our newsletter</p>
+    </div>
+      {#each features as feature}
+        <Card icon={feature.icon} title={feature.title} description={feature.description} />
+      {/each}
+    </section>
+    <div class="h-16"></div>
+  </div>
+</div>
