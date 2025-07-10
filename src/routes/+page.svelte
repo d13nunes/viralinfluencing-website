@@ -44,10 +44,10 @@
 <div class="w-full h-full">
 
   <header class="text-center pt-8 px-8">
-    <h1 class="h1 text-4xl md:h-28 md:text-8xl bg-clip-text text-transparent  bg-gradient-to-r from-primary-500 to-tertiary-500 ">Viral Influencing</h1>
+    <h1 class="h1 text-4xl md:h-28 md:text-8xl bg-clip-text text-transparent  bg-gradient-to-r from-primary-100 to-secondary-500 ">Viral Influencing</h1>
   </header>
   <div class="text-center px-8 pb-2 md:pb-8 pt-0 md:pt-8">
-    <p class="text-surface-500-400-token text-xl mt-2 md:mt-0 md:text-2xl leading-none">{m.main_description1()}<br>{m.main_description2()}</p>
+    <p class="text-surface-500-400-token text-xl mt-2 md:mt-0 md:text-2xl leading-none">{m.main_description1()} {m.main_description2()}</p>
   </div>
   
   <div class="container mx-auto max-w-4xl p-8 h-full  ">
