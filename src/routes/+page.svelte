@@ -53,7 +53,7 @@
   <div class="container mx-auto max-w-4xl p-8 h-full  ">
     <section class="grid  md:grid-cols-2 gap-8 ">
     
-    <div class="card preset-filled-surface-100-900 light:border-1 border-surface-200 px-8 pt-6 pb-6 md:pb-8 flex flex-col items-center text-center rounded-lg shadow-md md:col-span-2"  >
+    <!-- <div class="card preset-filled-surface-100-900 light:border-1 border-surface-200 px-8 pt-6 pb-6 md:pb-8 flex flex-col items-center text-center rounded-lg shadow-md md:col-span-2"  >
       <div class="w-16 h-16 mb-4 rounded-full flex items-center justify-center preset-filled-secondary-500">
         <Mail class="w-8 h-8 text-white" />
       </div>
@@ -63,7 +63,7 @@
         <button type="submit" class="btn preset-filled-secondary-500 rounded-l-none hover:brightness-110 md:col-span-2 lg:col-span-2">{m.newsletter_button()}</button>
       </form>
       <p class="mt-4 text-justify-center  leading-tight">{m.newsletter_cta()}</p>
-    </div>
+    </div> -->
       {#each features as feature}
         <Card title={feature.title} description={feature.description} > 
           {#snippet icon()}
