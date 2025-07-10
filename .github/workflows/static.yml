@@ -31,9 +31,10 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      
-      - uses: oven-sh/setup-bun@v2
-              
+
+      - name: Install bun
+        uses: oven-sh/setup-bun@v2
+        
       - name: Install Node.js
         uses: actions/setup-node@v4
         with:
@@ -45,9 +46,9 @@ jobs:
 
       - name: build
         env:
-            BASE_PATH: '/${{ github.event.repository.name }}'
-            run: |
-              bun run build       
+          BASE_PATH: '/${{ github.event.repository.name }}'
+        run: |
+          bun run build       
         
       - name: Setup Pages
         uses: actions/configure-pages@v5
