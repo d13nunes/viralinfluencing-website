@@ -14,15 +14,6 @@
             "type": "image/png"
         }
     ],
-    "screenshots": [
-    {
-      "src": "images/mobile-screenshot-1.jpg",
-      "sizes": "1080x1920",
-      "type": "image/jpeg",
-      "form_factor": "narrow",
-      "label": "Welcome screen on mobile"
-    }
-  ],
     "theme_color": "#ffffff",
     "background_color": "#ffffff",
     "display": "standalone"
