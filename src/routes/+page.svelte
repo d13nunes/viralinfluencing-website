@@ -212,14 +212,14 @@
 
 				<div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
 					{#each features as feature, index}
-						<div class="group relative">
+						<div class="group relative h-full">
 							<div
 								class="from-primary-500/20 to-secondary-500/20 absolute inset-0 rounded-2xl bg-gradient-to-r opacity-0 blur-xl transition-opacity duration-500 group-hover:opacity-100"
 							></div>
 							<Card
 								title={feature.title}
 								description={feature.description}
-								class="hover:border-primary-200/50 relative border border-white/20 bg-white/80 backdrop-blur-sm transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl"
+								class="hover:border-primary-200/50 relative h-full border border-white/20 bg-white/80 backdrop-blur-sm transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl"
 							>
 								{#snippet icon()}
 									<div

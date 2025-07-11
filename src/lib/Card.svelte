@@ -12,11 +12,13 @@
 </script>
 
 <div
-	class="card flex flex-col items-center rounded-2xl p-8 text-center shadow-lg transition-all duration-300 hover:shadow-xl {className}"
+	class="card flex h-full min-h-[280px] flex-col items-center justify-between rounded-2xl p-8 text-center shadow-lg transition-all duration-300 hover:shadow-xl {className}"
 >
-	<div class="mb-6">
-		{@render icon()}
+	<div class="flex flex-col items-center">
+		<div class="mb-6">
+			{@render icon()}
+		</div>
+		<h3 class="text-surface-900 mb-4 text-xl leading-tight font-bold">{title}</h3>
+		<p class="text-surface-600 leading-relaxed">{description}</p>
 	</div>
-	<h3 class="text-surface-900 mb-4 text-xl leading-tight font-bold">{title}</h3>
-	<p class="text-surface-600 leading-relaxed">{description}</p>
 </div>
