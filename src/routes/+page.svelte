@@ -54,7 +54,7 @@
 
 <div class="relative w-full h-full ">
   <div class="absolute inset-0 bg-no-repeat bg-cover bg-center"
-  style="background-image: url('/landing.png');">
+  style="background-image: url('/landing.webp');">
 <div class="absolute inset-0 bg-gradient-to-b from-transparent to-white"></div>
 </div>
 
