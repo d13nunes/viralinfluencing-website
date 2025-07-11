@@ -1,4 +1,23 @@
 {
-	"$schema": "https://inlang.com/schema/inlang-message-format",
-	"hello_world": "Hello, {name} from es!"
+    "$schema": "https://inlang.com/schema/inlang-message-format",
+    "hello_world": "Hola, {name} de es!",
+    "features_send_title": "Publicación sin esfuerzo",
+    "features_send_description": "Ahorra tiempo y alcanza un público más amplio al publicar tu contenido en todas tus redes sociales con un solo clic.",
+    "features_lightbulb_title": "Inspiración interminable",
+    "features_lightbulb_description": "Nunca fique sin inspiración con sugerencias de nuestra IA para temas de vídeos virales y temas de publicaciones adaptados a tu nicho.",
+    "features_pencil_title": "Descripciones con un clic",
+    "features_pencil_description": "Crea descripciones atractivas y específicas para cada plataforma que llaman la atención y impulsan el engagement, todo con un solo clic.",
+    "features_hash_title": "Hashtags perfectas",
+    "features_hash_description": "Maximiza tu alcance y descubre nuevos públicos con hashtags recomendadas por nuestra IA para tu contenido.",
+    "features_calendar_title": "Agendamiento automático",
+    "features_calendar_description": "Agenda publicaciones para el momento ideal para interactuar con tu público, para que puedas concentrarte en crear contenido de calidad.",
+    "features_folder_title": "Centro de contenido",
+    "features_folder_description": "Organiza tus archivos multimedia en un solo lugar, facilitando la reutilización de contenido y la mantenimiento de una marca consistente.",
+    "features_message_square_title": "Una única casilla de mensajes",
+    "features_message_square_description": "Gestiona todos tus comentarios y mensajes en una única entrada de mensajes, con una IA que responde automáticamente para que puedas interactuar con tu comunidad de forma más eficiente.",
+    "main_description1": "Tu futura herramienta de gestión de redes sociales",
+    "main_description2": "alimentada por Inteligencia Artificial",
+    "newsletter_title": "Únete a nuestro círculo restringido! Sé el primero en experimentar nuevas funcionalidades y moldar el futuro de la aplicación Viral Influencing",
+    "newsletter_button": "Subscribirse",
+    "newsletter_cta": "Suscríbete a nuestra newsletter"
 }

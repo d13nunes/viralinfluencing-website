@@ -1,7 +1,7 @@
 {
 	"$schema": "https://inlang.com/schema/inlang-message-format",
 	"hello_world": "Hello, {name} from en!",
-	"features_send_title": "Effortless Publishing",
+	"features_send_title": "One Click Post",
 	"features_send_description": "Save time and reach a wider audience by posting your content to all your social networks with just a single click.",
 	"features_lightbulb_title": "Endless Inspiration",
 	"features_lightbulb_description": "Never run out of inspiration with AI-powered suggestions for viral video topics and post themes tailored to your niche.",
